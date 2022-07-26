@@ -1,0 +1,41 @@
+.sidebar-footer {
+  position: sticky;
+  bottom: 0;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(99, 99, 99, 0.5);
+  padding: 10px;
+}
+
+.push-btn {
+  width: 100%;
+}
+
+.tag-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 3px;
+
+  cursor: pointer;
+}
+
+.tag-btn-active {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 3px;
+  cursor: pointer;
+  background-color: cadetblue;
+  color: white;
+}
+
+.card-item {
+  width: 300px;
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
